@@ -1,0 +1,7 @@
+C:\Users\Hachi\source\repos\ProyectoPila\ProyectoPila\obj\Debug\ProyectoPila.csproj.AssemblyReference.cache
+C:\Users\Hachi\source\repos\ProyectoPila\ProyectoPila\obj\Debug\ProyectoPila.csproj.CoreCompileInputs.cache
+C:\Users\Hachi\source\repos\ProyectoPila\ProyectoPila\bin\Debug\ProyectoPila.exe.config
+C:\Users\Hachi\source\repos\ProyectoPila\ProyectoPila\bin\Debug\ProyectoPila.exe
+C:\Users\Hachi\source\repos\ProyectoPila\ProyectoPila\bin\Debug\ProyectoPila.pdb
+C:\Users\Hachi\source\repos\ProyectoPila\ProyectoPila\obj\Debug\ProyectoPila.exe
+C:\Users\Hachi\source\repos\ProyectoPila\ProyectoPila\obj\Debug\ProyectoPila.pdb
