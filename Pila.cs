@@ -41,6 +41,7 @@ namespace ProyectoPila
             {
                 Console.WriteLine("La pila esta vacia");
 
+
             }
 
           Nodo actual = inicio;
@@ -50,6 +51,9 @@ namespace ProyectoPila
                 Console.WriteLine($"{actual.Valor}");
                 actual = actual.Sig;
             }
+
+            Console.WriteLine("");
+            Console.WriteLine("");
 
 
 
@@ -63,6 +67,8 @@ namespace ProyectoPila
             if (Full()) 
             {
                 Console.WriteLine("La pila esta llena");
+                Console.WriteLine("");
+                Console.WriteLine("");
                 return false;
                 
             }
@@ -92,7 +98,7 @@ namespace ProyectoPila
         {
             if (Empty()) 
             {
-                Console.WriteLine("No se puedo eliminar, lista vacia");
+                Console.WriteLine("No se puedo eliminar, pila vacia");
                 return -1;
             }
 

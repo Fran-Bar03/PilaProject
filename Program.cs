@@ -37,15 +37,19 @@ namespace ProyectoPila
                 case 1:
                     Console.WriteLine("Dame el numero a insertar");
                     int max = Convert.ToInt32(Console.ReadLine());
+                        Console.WriteLine("");
+                        Console.WriteLine("");
 
-                    if(max > 0) 
+                        if (max > 0) 
                     {
                         Mipila = new Pila(max);
                     }
                     else
                     {
                         Console.WriteLine("Introduzca un tamaño de pila mayor a 0");
-                    }
+                            Console.WriteLine("");
+                            Console.WriteLine("");
+                        }
 
                     break;
 
@@ -54,12 +58,16 @@ namespace ProyectoPila
                         if (Mipila == null)
                         {
                             Console.WriteLine("Introduzca un tamaño de pila primeramente");
+                            Console.WriteLine("");
+                            Console.WriteLine("");
                         }
                         else 
                         { 
                         Console.WriteLine("Ingresa el numero a insertar");
                     int num = Convert.ToInt32(Console.ReadLine());
-                    Mipila.Push(num);
+                            Console.WriteLine("");
+                            Console.WriteLine("");
+                            Mipila.Push(num);
                         }
                         break;
 
@@ -68,12 +76,15 @@ namespace ProyectoPila
                         if (Mipila == null)
                         {
                             Console.WriteLine("Introduzca un tamaño de pila primeramente");
+                            Console.WriteLine("");
+                            Console.WriteLine("");
                         }
 
                         else 
                         { 
 
                         int res =  Mipila.Pop();
+                            Console.WriteLine("");
                         
 
                         }
@@ -82,22 +93,36 @@ namespace ProyectoPila
 
                     case 4:
 
-                    Mipila.PrintStack();
+                        if (Mipila == null)
+                        {
+                            Console.WriteLine("Introduce el tamaño de la pila primero");
+                            Console.WriteLine("");
+                            Console.WriteLine("");
+                        }
+                        else
+                        {
+                            Mipila.PrintStack();
+                        }
+                   
 
                     break;
 
                     case 5:
 
                     Console.WriteLine("Saliendo....");
+                        Console.WriteLine("");
+                        Console.WriteLine("");
 
-                    break;
+                        break;
 
                     default:
                     Console.WriteLine("Introduzca una opcion valida");
-                    break;
+                        Console.WriteLine("");
+                        Console.WriteLine("");
+                        break;
 
                 } 
-
+                
 
             } while (op != 5);
 
